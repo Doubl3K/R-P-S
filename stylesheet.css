@@ -1,0 +1,49 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+#headline{
+  text-align: center;
+  font-size: 150%
+}
+
+.button-container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+ .buttons{
+   width: 300px;
+   height: 200px;
+   background-color: darkgrey;
+   margin: 2%;
+   font-size: 120%;
+ }
+
+ .buttons:hover{
+   border: solid orange 5px;
+ }
+
+.score{
+  display: flex;
+  justify-content: center;
+}
+
+#playerScore{
+  position: relative  ;
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+#computerScore{
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+.score-history{
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
